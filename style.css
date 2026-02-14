@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+}
+
+.input {
+    display: block;
+    margin: 16px auto;
+    width: 80%;
+    height: 60vh;
+    resize: none;
+    border-radius: 1vh;
+    padding: 5px;
+}
+
+button {
+    display: block;
+    margin: 16px auto;
+    padding: 10px 20px;
+    border-radius: 20vh;
+    border: 0;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+}
